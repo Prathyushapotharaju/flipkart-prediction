@@ -42,7 +42,7 @@ num_ratings = st.number_input("Number of Ratings", min_value=0, step=10)
 num_reviews = st.number_input("Number of Reviews", min_value=0, step=10)
 ram = st.selectbox("RAM (GB)", [4, 8, 16, 32])
 storage = st.selectbox("Storage (GB)", [128, 256, 512, 1024])
-
+st.write("It's just a demo rule based project")
 # ---- Prediction ----
 if st.button("Predict Price"):
     input_data = pd.DataFrame({
@@ -61,7 +61,8 @@ if st.button("Predict Price"):
 
     st.success(f"💰 Estimated Laptop Price: ₹ {int(prediction):,}")
 
-st.write("It's just a demo rule based project")
+
+
 
 
 
