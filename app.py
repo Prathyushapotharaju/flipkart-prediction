@@ -61,5 +61,8 @@ if st.button("Predict Price"):
 
     st.success(f"💰 Estimated Laptop Price: ₹ {int(prediction):,}")
 
+st.write("It's just a demo rule based project")
+
+
 
 
